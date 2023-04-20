@@ -7,7 +7,7 @@ server.use(express.urlencoded({extended:true}))
 server.use(cors())
 
 server.get("/",cors(),(req,res)=>{});
-
+//mmmmmmmmmmmmmm
 server.post("/",async(req,res)=>{
         const{email,password}=req.body;
         try{
