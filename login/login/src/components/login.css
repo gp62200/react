@@ -1,0 +1,89 @@
+
+
+.rightDiv {
+    background-color: white;
+    color: black;
+    height: 200px;
+    width: 100%;
+    
+    float: right;
+}
+.leftDiv {
+    background-color: white;
+    color:black; 
+    height: 20px;
+    width:90px;
+    
+    float: left;
+}
+.outerDiv {
+    background-color: white;
+    color:black ;
+    height: 280px;
+    width: 600px;
+    margin: 110px;
+    padding: 5px;
+    border: 2px solid grey;
+    border-color: 2px solid grey;
+    border-radius: 25px;
+    box-shadow: 2px 2px 2px 2px #8e8e8e;
+    /* box-sizing: border-box; */
+}
+.outDiv {
+    background-color: white;
+    color:black ;
+    height: 650px;
+    width: 1450px;
+    /* margin:50px; */
+    margin-left: 20px;
+    margin-top: 30px;
+    padding: 5px;
+    border-color: 3px solid grey;
+    border-radius: 25px;
+    box-shadow: 2px 2px 2px 2px #8e8e8e;
+}
+.leftImageDiv {
+    background-color: white;
+    color:black;
+    height: 50%;
+    width:25%;
+    float: left;
+    text-align: center;
+}
+.rightImageDiv {
+    background-color: white;
+    color: black;
+    height: 100px;
+    width: 58%;
+    float: right;
+}
+.rightInnerDiv {
+    background-color: white;
+    color: black;
+    height: 200px;
+    width: 54%;
+    
+    float: right;
+}
+/* @media screen and (min-width: 280px) {
+    #leftsidebar {width: 100px; float: left;}
+    #main {margin-left: 116px;}
+  } */
+
+/* div{
+    background-image: url('../img/background1.jpg');
+} */
+/* style={{ backgroundImage: `url(${background1})` }} */
+
+/* @media only screen and (min-width: 1024px) {
+    .container header .header-nav-area #nav_container  {
+      display:flex;
+    }
+  } */
+
+/* @media (min-width:992px) {
+    .leftImageDiv{
+        width:45%;
+        display:inline-block;
+    }
+} */
